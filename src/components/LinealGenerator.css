@@ -1,0 +1,186 @@
+.lineal-theme {
+  background-color: #1b1b2b;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: #eaeaea;
+}
+
+/* Fondo general oscuro */
+.lineal-theme .card {
+  background: #181828;
+  color: #eafaea;
+  border-radius: 16px;
+  border: 1.5px solid #2ecc71;
+  box-shadow: 0 4px 24px 0 rgba(46, 204, 113, 0.10);
+}
+
+/* Encabezado con verde */
+.lineal-theme .card-header {
+  background: linear-gradient(90deg, #27ae60 60%, #145a32 100%);
+  color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom: 2px solid #2ecc71;
+}
+
+/* Inputs y selects oscuros con borde verde */
+.lineal-theme .form-control,
+.lineal-theme .form-select {
+  background: #23233a;
+  color: #eafaea;
+  border: 1.5px solid #2ecc71;
+  border-radius: 8px;
+}
+
+.lineal-theme .form-control:focus,
+.lineal-theme .form-select:focus {
+  border-color: #58d68d;
+  box-shadow: 0 0 0 2px #2ecc71;
+  background: #29294a;
+  color: #fff;
+}
+
+/* Botones */
+.lineal-theme .btn-success {
+  background: linear-gradient(90deg, #58d68d 60%, #27ae60 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.lineal-theme .btn-success:hover {
+  background: linear-gradient(90deg, #27ae60 60%, #58d68d 100%);
+}
+
+.lineal-theme .btn-secondary {
+  background: #23233a;
+  color: #2ecc71;
+  border: 1.5px solid #2ecc71;
+  font-weight: bold;
+}
+.lineal-theme .btn-secondary:hover {
+  background: #27ae60;
+  color: #fff;
+}
+
+/* Tablas - ESTILOS ACTUALIZADOS CON TEXTO BLANCO */
+.lineal-theme .table {
+  background: #23233a !important;
+  color: #ffffff !important; /* Texto blanco */
+  border-radius: 8px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 0;
+}
+
+.lineal-theme .table th {
+  background: #27ae60 !important;
+  color: #ffffff !important; /* Texto blanco */
+  border-bottom: 2px solid #2ecc71 !important;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.lineal-theme .table td {
+  padding: 12px;
+  border-top: 1px solid #2e4e3a;
+  vertical-align: middle;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.lineal-theme .table-striped > tbody > tr:nth-of-type(odd) {
+  background: #23233a !important;
+}
+
+.lineal-theme .table-striped > tbody > tr:nth-of-type(even) {
+  background: #29294a !important;
+}
+
+.lineal-theme .table-hover tbody tr:hover {
+  background: #145a32 !important;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.lineal-theme .table-warning {
+  background: #2ecc71 !important;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.lineal-theme .table-warning td {
+  background: #2ecc71 !important;
+  color: #ffffff !important; /* Texto blanco */
+  font-weight: bold;
+}
+
+/* Asegurar que todos los textos dentro de la tabla sean blancos */
+.lineal-theme .table * {
+  color: #ffffff !important;
+}
+
+/* Alertas */
+.lineal-theme .alert-info {
+  background: #29294a;
+  color: #2ecc71;
+  border: 1.5px solid #2ecc71;
+}
+.lineal-theme .alert-success {
+  background: #23233a;
+  color: #2ecc71;
+  border: 1.5px solid #2ecc71;
+}
+.lineal-theme .alert-warning {
+  background: #145a32;
+  color: #ffffff; /* Texto blanco */
+  border: 1.5px solid #2ecc71;
+}
+.lineal-theme .alert-danger {
+  background: #145a32;
+  color: #ffffff; /* Texto blanco */
+  border: 1.5px solid #ff5e5e;
+}
+
+/* Etiquetas y textos */
+.lineal-theme .form-label,
+.lineal-theme .form-text,
+h2,
+h3,
+h5 {
+  color: #2ecc71;
+}
+
+.lineal-theme ::-webkit-input-placeholder { color: #baf7c7; }
+.lineal-theme ::-moz-placeholder { color: #baf7c7; }
+.lineal-theme :-ms-input-placeholder { color: #baf7c7; }
+.lineal-theme ::placeholder { color: #baf7c7; }
+
+/* Estilos para la tabla responsive */
+.lineal-theme .table-responsive {
+  border: 1px solid #2ecc71;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.2);
+}
+
+/* Asegurar que no haya bordes blancos */
+.lineal-theme .table-dark,
+.lineal-theme .table-dark th,
+.lineal-theme .table-dark td {
+  border-color: #2e4e3a !important;
+}
+
+/* Remover estilos por defecto de Bootstrap que causan problemas */
+.lineal-theme .table > :not(caption) > * > * {
+  background-color: transparent;
+  box-shadow: none;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+/* Asegurar que el texto en las celdas sea blanco */
+.lineal-theme .table tbody tr td {
+  color: #ffffff !important;
+}
+
+/* Asegurar que el texto en las celdas de encabezado sea blanco */
+.lineal-theme .table thead tr th {
+  color: #ffffff !important;
+}

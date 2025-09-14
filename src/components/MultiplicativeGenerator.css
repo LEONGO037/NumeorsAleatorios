@@ -1,0 +1,189 @@
+/* MultiplicativeGenerator.css */
+
+/* Fondo oscuro general para el componente */
+.multiplicativo-theme {
+  background-color: #1e1e2f;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: #f0f0f0;
+}
+
+/* Fondo general oscuro */
+.multiplicativo-theme .card {
+  background: #181828;
+  color: #f3f3fa;
+  border-radius: 16px;
+  border: 1.5px solid #6c2eb7;
+  box-shadow: 0 4px 24px 0 rgba(108, 46, 183, 0.15);
+}
+
+/* Encabezado con morado */
+.multiplicativo-theme .card-header {
+  background: linear-gradient(90deg, #6c2eb7 60%, #3a185a 100%);
+  color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom: 2px solid #a259f7;
+}
+
+/* Inputs y selects oscuros con borde morado */
+.multiplicativo-theme .form-control,
+.multiplicativo-theme .form-select {
+  background: #23233a;
+  color: #f3f3fa;
+  border: 1.5px solid #a259f7;
+  border-radius: 8px;
+}
+
+.multiplicativo-theme .form-control:focus,
+.multiplicativo-theme .form-select:focus {
+  border-color: #d1aaff;
+  box-shadow: 0 0 0 2px #a259f7;
+  background: #29294a;
+  color: #fff;
+}
+
+/* Botones */
+.multiplicativo-theme .btn-success {
+  background: linear-gradient(90deg, #a259f7 60%, #6c2eb7 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.multiplicativo-theme .btn-success:hover {
+  background: linear-gradient(90deg, #6c2eb7 60%, #a259f7 100%);
+}
+
+.multiplicativo-theme .btn-secondary {
+  background: #23233a;
+  color: #a259f7;
+  border: 1.5px solid #a259f7;
+  font-weight: bold;
+}
+.multiplicativo-theme .btn-secondary:hover {
+  background: #6c2eb7;
+  color: #fff;
+}
+
+/* Tablas - ESTILOS ACTUALIZADOS CON TEXTO BLANCO */
+.multiplicativo-theme .table {
+  background: #23233a !important;
+  color: #ffffff !important; /* Texto blanco */
+  border-radius: 8px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 0;
+}
+
+.multiplicativo-theme .table th {
+  background: #6c2eb7 !important;
+  color: #ffffff !important; /* Texto blanco */
+  border-bottom: 2px solid #a259f7 !important;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.multiplicativo-theme .table td {
+  padding: 12px;
+  border-top: 1px solid #4a2b75;
+  vertical-align: middle;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.multiplicativo-theme .table-striped > tbody > tr:nth-of-type(odd) {
+  background: #23233a !important;
+}
+
+.multiplicativo-theme .table-striped > tbody > tr:nth-of-type(even) {
+  background: #29294a !important;
+}
+
+.multiplicativo-theme .table-hover tbody tr:hover {
+  background: #3a185a !important;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.multiplicativo-theme .table-warning {
+  background: #a259f7 !important;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+.multiplicativo-theme .table-warning td {
+  background: #a259f7 !important;
+  color: #ffffff !important; /* Texto blanco */
+  font-weight: bold;
+}
+
+/* Asegurar que todos los textos dentro de la tabla sean blancos */
+.multiplicativo-theme .table * {
+  color: #ffffff !important;
+}
+
+/* Alertas */
+.multiplicativo-theme .alert-info {
+  background: #29294a;
+  color: #a259f7;
+  border: 1.5px solid #a259f7;
+}
+.multiplicativo-theme .alert-success {
+  background: #23233a;
+  color: #a259f7;
+  border: 1.5px solid #a259f7;
+}
+.multiplicativo-theme .alert-warning {
+  background: #3a185a;
+  color: #ffffff; /* Texto blanco */
+  border: 1.5px solid #a259f7;
+}
+.multiplicativo-theme .alert-danger {
+  background: #3a185a;
+  color: #ffffff; /* Texto blanco */
+  border: 1.5px solid #ff5e5e;
+}
+
+/* Etiquetas y textos */
+.multiplicativo-theme .form-label,
+.multiplicativo-theme .form-text,
+.multiplicativo-theme h2,
+.multiplicativo-theme h3,
+.multiplicativo-theme h5 {
+  color: #a259f7;
+}
+
+.multiplicativo-theme ::-webkit-input-placeholder { color: #bbaadd; }
+.multiplicativo-theme ::-moz-placeholder { color: #bbaadd; }
+.multiplicativo-theme :-ms-input-placeholder { color: #bbaadd; }
+.multiplicativo-theme ::placeholder { color: #bbaadd; }
+
+/* Estilos para la tabla responsive */
+.multiplicativo-theme .table-responsive {
+  border: 1px solid #a259f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(162, 89, 247, 0.2);
+}
+
+/* Asegurar que no haya bordes blancos */
+.multiplicativo-theme .table-dark,
+.multiplicativo-theme .table-dark th,
+.multiplicativo-theme .table-dark td {
+  border-color: #4a2b75 !important;
+}
+
+/* Remover estilos por defecto de Bootstrap que causan problemas */
+.multiplicativo-theme .table > :not(caption) > * > * {
+  background-color: transparent;
+  box-shadow: none;
+  color: #ffffff !important; /* Texto blanco */
+}
+
+/* Asegurar que el texto en las celdas sea blanco */
+.multiplicativo-theme .table tbody tr td {
+  color: #ffffff !important;
+}
+
+/* Asegurar que el texto en las celdas de encabezado sea blanco */
+.multiplicativo-theme .table thead tr th {
+  color: #ffffff !important;
+}
