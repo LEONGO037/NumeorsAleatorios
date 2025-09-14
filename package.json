@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://LEONGO037.github.io/NumeorsAleatorios",
+  "homepage": "https://LEONGO037.github.io/NumerosAleatorios",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
